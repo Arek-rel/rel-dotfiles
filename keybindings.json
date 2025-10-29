@@ -2,6 +2,7 @@
 [
     {
         "key": "\\",
-        "command": "workbench.explorer.fileView.focus"
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "filesExplorerFocus"
     }
 ]

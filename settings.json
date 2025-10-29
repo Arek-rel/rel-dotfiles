@@ -18,6 +18,10 @@
     {
       "before": ["K"],
       "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["\\"],
+      "commands": ["workbench.explorer.fileView.focus"]
     }
   ],
   "vim.leader": "<space>",
