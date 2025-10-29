@@ -14,6 +14,10 @@
     {
       "before": ["<leader>", "f", "f"],
       "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.marker.next"]
     }
   ],
   "vim.leader": "<space>",
